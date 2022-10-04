@@ -5,6 +5,12 @@ using std::cin;
 int main() {
     float celsius;
 
+    #if _WIN32
+        system("cls");
+    #else 
+        system("clear");
+    #endif
+
     system("cls");
     cout << "------------ CELSIUS TO FARENHEIT -----------------\n";
     cout << "Please type the temperature in celsius\n";

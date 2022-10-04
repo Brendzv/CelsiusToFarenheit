@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 using std::cout; 
 using std::cin;
 
@@ -11,7 +12,6 @@ int main() {
         system("clear");
     #endif
 
-    system("cls");
     cout << "------------ CELSIUS TO FARENHEIT -----------------\n";
     cout << "Please type the temperature in celsius\n";
     cin >> celsius;
